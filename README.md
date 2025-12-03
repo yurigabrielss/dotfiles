@@ -18,6 +18,7 @@ This repository is not actively maintained. Use with caution! Make a backup of y
 ## Screenshots
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20cf9372-4ec1-4c1f-b54d-b74a36e41bb9" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ad10544-b3cf-4b94-a957-ff3559620d0c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51496d19-5032-44b4-8d6b-b3d8c9e2d1f5" />
 
 
 ## Repository Structure
