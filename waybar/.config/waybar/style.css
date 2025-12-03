@@ -1,0 +1,100 @@
+@import "colors.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    min-height: 0;
+}
+
+/* ============================
+   BAR
+============================ */
+window#waybar {
+    background: @surface_container_highest;
+    color: @on_surface;
+}
+
+/* ============================
+   TOOLTIP
+============================ */
+tooltip {
+  background: transparent;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: @on_surface;
+}
+
+/* ============================
+   WINDOW TITLE
+============================ */
+#window {
+    padding: 8px 14px;
+    margin: 2px 15px;
+    color: @on_surface;
+}
+
+/* ============================
+   WORKSPACES
+============================ */
+#workspaces button {
+    padding: 2px 10px;
+    margin: 2px;
+    background: @surface_bright;
+    color: @on_surface;
+    border-radius: 100px;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+    background: @surface_bright;
+    color: @primary;
+    border-bottom: 1px solid @primary;
+}
+
+
+#workspaces button.empty {
+    opacity: 0.5;
+}
+#workspaces button.urgent {
+    background: #d9534f;
+    color: white;
+}
+
+
+/* ============================
+   RIGHT MODULES (clock, battery, etc)
+============================ */
+#clock,
+#battery,
+#pulseaudio,
+#network {
+    padding: 6px 14px;
+    margin: 2px 15px;
+    background: @surface_bright;
+    color: @on_surface;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+
+/* Hover leve para dar sensação de fluidez */
+#clock:hover,
+#battery:hover,
+#pulseaudio:hover,
+#network:hover {
+    background: @surface_container_high;
+}
+
+/* ============================
+   OPTIONAL: Transparent spacing fix
+============================ */
+/* Remove blocos invisíveis que às vezes aparecem */
+#tray,
+#custom,
+#idle_inhibitor {
+    background: none;
+}
