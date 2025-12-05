@@ -1,8 +1,11 @@
-# Dotfiles — Arch Linux + Hyprland + Stow
+# Dotfiles — Arch Linux + Hyprland + GNU Stow
 
-This repository contains my personal configuration files (dotfiles) for my Arch Linux environment running Hyprland — my first full ricing setup.  
-All configuration management is handled using **GNU Stow**, allowing me to replicate this setup on any machine with just a few commands.
-This repository is not actively maintained. Use with caution! Make a backup of your current setup before trying this out.
+This repository contains my configuration files (dotfiles) for an Arch Linux environment running Hyprland.  
+All configuration management is handled using **GNU Stow**, making the setup fully reproducible across machines with minimal effort.
+
+> **Note:** This repository is not actively maintained. Use at your own discretion and always back up your existing configuration before applying these dotfiles.
+
+---
 
 ## Technologies & Tools
 
@@ -15,17 +18,19 @@ This repository is not actively maintained. Use with caution! Make a backup of y
 - **System Info:** Fastfetch  
 - **Dotfile Management:** GNU Stow  
 
+---
+
 ## Screenshots
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20cf9372-4ec1-4c1f-b54d-b74a36e41bb9" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ad10544-b3cf-4b94-a957-ff3559620d0c" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51496d19-5032-44b4-8d6b-b3d8c9e2d1f5" />
 
+---
 
 ## Repository Structure
 
-Each directory inside `dotfiles/` represents an independent module managed via `stow`.
-
-For example:
+Each directory inside `dotfiles/` represents a standalone module managed via `stow`.
 
 dotfiles/
 hypr/
@@ -36,8 +41,8 @@ rofi/
 fastfetch/
 gtk/
 
-Applying a module is as simple as running:
+
+Applying a module:
 stow <module>
 
-This structure keeps the setup modular, easy to maintain, and fully reproducible.
-
+This modular structure keeps the configuration organized, maintainable, and easy to replicate.
