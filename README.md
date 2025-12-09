@@ -4,6 +4,8 @@ This repository contains my configuration files (dotfiles) for an Arch Linux env
 All configuration management is handled using **GNU Stow**, making the setup fully reproducible across machines with minimal effort.
 
 > **Note:** This repository is not actively maintained. Use at your own discretion and always back up your existing configuration before applying these dotfiles.
+> **Disclaimer**: This repository is part of a personal study initiative.
+The implementation focuses on exploring concepts and experimenting with techniques, and it should not be considered production-ready software.
 
 ---
 
